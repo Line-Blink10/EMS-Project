@@ -1,0 +1,88 @@
+
+
+
+/* ==============login page section================ */
+.login-body{
+    background-color:rgb(46, 118, 241);
+}
+.Login-form{
+    text-align: center;
+    background-color: white;
+    margin: 5rem 25rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+
+}
+.input-box-size{
+   width: 20rem;
+   height: 2rem;
+   margin: 1rem;
+}
+.remind-forgot-login{
+    display: flex;
+    margin-left: 2.5rem;
+}
+.remind-forgot-login a{
+    text-decoration: none;
+    margin-left: 7rem;
+    color: rgb(2, 82, 186);
+}
+input[type=text]::placeholder{
+    color: gray;
+   
+}
+.login-btn{
+    background-color: rgb(16, 125, 234);
+    color: white;
+    border: cadetblue;
+    border: 2px solid skyblue;
+}
+.new-employee a{
+    text-decoration: none;
+    background-color: rgb(16, 125, 234)  ;
+    border: 2px solid skyblue;
+    padding: 0.3rem 7.9rem;
+    color: white;
+
+}
+/* =================login section ends here================== */
+   /*=================registration section begins here=======  */
+   .Register-form-body{
+    background-color:rgb(46, 118, 241);
+
+   }
+   #Register-form{
+    text-align: center;
+    background-color: white;
+    margin: 2rem 20rem;
+    padding-bottom: 1rem;
+    padding-top: 0.3rem;
+   }
+   #Register-form h2{
+    margin-top: 0.2rem;
+   }
+   .upper-input{
+    margin: 0.7rem;
+    width: 15rem;
+   }
+   .lower-inputs{
+    width:32rem ;
+    margin: 0.5rem;
+   }
+   .Register-btn{
+    background-color:rgb(16, 125, 234) ;
+    color: white;
+    padding: 0.1rem 15rem;
+    border: 2px solid skyblue;
+   }
+   .new-emp-login a{
+    text-decoration: none;
+    background-color:  rgb(16, 125, 234)  ;
+    color: white;
+    padding: 0.1rem 15rem;
+    border: 2px solid skyblue;
+   }
+
+   
+  
+
