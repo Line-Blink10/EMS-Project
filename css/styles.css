@@ -1,0 +1,153 @@
+
+body{
+    font-family: Arial,  sans-serif;
+}
+
+
+/* ==============login page section================ */
+.login-page{
+    background-color:rgb(46, 118, 241);
+}
+.Login-form{
+    text-align: center;
+    background-color: white;
+    margin: 5rem 25rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+
+}
+.input-box-size{
+   width: 20rem;
+   height: 2rem;
+   margin: 1rem;
+}
+.remind-forgot-login{
+    display: flex;
+    margin-left: 3.5rem;
+}
+.remind-forgot-login a{
+    text-decoration: none;
+    margin-left: 7rem;
+    color: rgb(2, 82, 186);
+}
+input[type=text]::placeholder{
+    color: gray;
+   
+}
+.login-btn{
+    background-color: rgb(16, 125, 234);
+    color: white;
+    border: cadetblue;
+    border: 2px solid skyblue;
+}
+.new-employee a{
+    text-decoration: none;
+    background-color: rgb(16, 125, 234)  ;
+    border: 2px solid skyblue;
+    padding: 0.3rem 7.9rem;
+    color: white;
+
+}
+/* =================login section ends here================== */
+
+
+   /*=================registration section begins here=======  */
+   .Register-form-body{
+    background-color:rgb(46, 118, 241);
+
+   }
+   #Register-form{
+    text-align: center;
+    background-color: white;
+    margin: 2rem 20rem;
+    padding-bottom: 1rem;
+    padding-top: 0.3rem;
+   }
+   #Register-form h2{
+    margin-top: 0.2rem;
+   }
+   .upper-input{
+    margin: 0.7rem;
+    width: 15rem;
+   }
+   .lower-inputs{
+    width:32rem ;
+    margin: 0.5rem;
+   }
+   .Register-btn{
+    background-color:rgb(16, 125, 234) ;
+    color: white;
+    padding: 0.1rem 15rem;
+    border: 2px solid skyblue;
+   }
+   .new-emp-login a{
+    text-decoration: none;
+    background-color:  rgb(16, 125, 234)  ;
+    color: white;
+    padding: 0.1rem 15rem;
+    border: 2px solid skyblue;
+   }
+   .radio-flex{
+    display: flex;
+    gap: 5rem;
+    margin-left: 3.8rem;
+   }
+   /* ========registration section ends here========= */
+
+   /* ===============index home page starts=========== */
+   
+.index-page-body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2a2d37;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #1c1f24;
+}
+
+.sidebar .nav-link {
+    margin:8px 0;
+    color: #adb5bd;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.sidebar .nav-link.active {
+    background-color: #3a3d4b;
+    color: #ffffff;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.card-body {
+    text-align: center;
+}
+
+canvas {
+    height: 200px;
+    width: 100%;
+}
+
+/* =========================employee page start here=============== */
+.go-back-img{
+    width: 4rem;
+   margin-top: 1rem; 
+   margin-left: 1rem;
+   height: 1.5rem;
+}
+.emp-search-bar{
+    width: 35rem;
+    height: 2rem;
+    border-radius: 1rem;
+   border: 2px solid skyblue;
+    margin: 1rem 0 0 9rem ;
+}
+input[type=search]::placeholder{
+   color: grey;
+}
